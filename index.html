@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+   <header class="header">
+       <nav class="header__nav">
+           <ul class="header__list">
+               <li><a href="#" class="header__link active">Home</a></li>
+               <li><a href="#" class="header__link">About me</a></li>
+               <li><a href="#" class="header__link">Skills</a></li>
+               <li><a href="#" class="header__link">Portfolio</a></li>
+               <li><a href="#" class="header__link">Contact</a></li>
+           </ul>    
+       </nav>
+       <div class="banner">
+            <h1 class="banner__name">Alexandr Golovanev</h1>
+            <p class="banner__text">Web developer
+            23 years old, Barnaul</p>
+            
+            <div class="banner__language language">
+                <a href="#">Ru</a>
+                <span>|</span>
+                <a href="#" class="active">Eng</a>
+            </div>
+            <div class="banner__burger-cnt">
+                <div class="banner__burger"><span></span></div>
+            </div>
+       </div>
+       <div class="header__menu hide">
+           <div class="hide__container">
+                <ul class="hide__list">
+                    <li><a href="#" class="hide__link active">Home</a></li>
+                    <li><a href="#" class="hide__link">About me</a></li>
+                    <li><a href="#" class="hide__link">Skills</a></li>
+                    <li><a href="#" class="hide__link">Portfolio</a></li>
+                    <li><a href="#" class="hide__link">Contact</a></li>
+                </ul>
+                <div class="hide__language language">
+                    <a href="#">Ru</a>
+                    <span>|</span>
+                    <a href="#" class="active">Eng</a>
+                </div>
+                <div class="btn__close">
+                    <div class="btn__close-item"><span></span></div>
+                </div>
+           </div>
+       </div>
+            
+       <div class="slider">
+           <div class="slider__container">
+               <div class="slider__show">
+                    <img src="./img/img_one.jpg" alt="slide_one" id="desktop">
+               </div>
+           </div>
+           <img src="./img/mobile_bg.jpg" alt="bg mobile" id="mobile_banner">
+       </div>
+   </header>
+   <main class="main">
+       <section class="about">
+           <div class="about__container">
+            <h2 data-anim="bottom" class="about__title">About me</h2>
+            <p data-anim="bottom">Hi, I'm Denis – UX/UI designer from Minsk. 
+                I'm interested in design and everything connected with it.</p>
+                
+                <p data-anim="bottom">I'm studying at courses "Web and mobile design 
+                    interfaces" in IT-Academy.</p>
+                <p data-anim="bottom"> Ready to implement excellent projects
+                 with wonderful people.</p>
+           </div>
+       </section>
+       <section class="skills">
+           <div class="skills__container">
+               <h2 data-anim="bottom" class="skills__title">Skills</h2>
+               <p class="skills__text" data-anim="bottom">I work in such programs as</p>
+               <div class="skills__box-container">
+                   <div data-anim="right" class="skills__item right__item">
+                       <img src="./img/icon/photoshop.png" alt="photoshop">
+                       <p>Adobe Photoshop</p>
+                       <div class="container__stars">
+                           <img src="./img/icon/star_black.png" alt="star">
+                           <img src="./img/icon/star_black.png" alt="star">
+                           <img src="./img/icon/star_black.png" alt="star">
+                           <img src="./img/icon/star_black.png" alt="star">
+                           <img src="./img/icon/star_white.png" alt="star">
+                       </div>
+                   </div>
+                   <div data-anim="bottom" class="skills__item bottom__item">
+                    <img src="./img/icon/illustrator.png" alt="illustrator">
+                    <p>Adobe Photoshop</p>
+                    <div class="container__stars">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_white.png" alt="star">
+                        <img src="./img/icon/star_white.png" alt="star">
+                    </div>
+                </div>
+                <div data-anim="bottom" class="skills__item bottom__item">
+                    <img src="./img/icon/After_efect.png" alt="photoshop">
+                    <p>Adobe Photoshop</p>
+                    <div class="container__stars">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_white.png" alt="star">
+                    </div>
+                </div>
+                <div data-anim="left" class="skills__item left__item">
+                    <img src="./img/icon/Figma.png" alt="photoshop">
+                    <p>Adobe Photoshop</p>
+                    <div class="container__stars">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_black.png" alt="star">
+                        <img src="./img/icon/star_white.png" alt="star">
+                    </div>
+                </div>
+               </div>
+           </div>
+           <section class="portfolio">
+               <div class="portfolio__container">
+                   <h2 data-anim="bottom" class="portfolio__title">Portfolio</h2>
+                   <div class="portfolio__item">
+                       <div  class="portfolio__cnt-img">
+                        <img src="./img/portfolio_one_img.jpg" alt="portfolio_one_img">
+                        <div data-anim="left__ani_image" class="overlay"></div>
+                       </div>
+                        
+                        <a href="#" class="portfolio__link">Online fashion store - Homepage</a>
+                   </div>
+                   <div class="portfolio__item">
+                       <div class="portfolio__cnt-img">
+                         <img src="./img/portfolio_two_img.jpg" alt="portfolio_two_img">
+                         <div data-anim="left__ani_image" class="overlay"></div>
+                       </div>
+                        
+                        <a href="#" class="portfolio__link">Reebok Store - Concept</a>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__cnt-img">
+                            <img src="./img/portfolio_three_img.jpg" alt="portfolio_three_img">
+                            <div data-anim="left__ani_image" class="overlay"></div>
+                        </div>
+                        
+                        <a href="#" class="portfolio__link">Braun Landing Page - Concept</a>
+                    </div>
+               </div>
+           </section>
+       </section>
+   </main>
+   <footer  class="footer">
+       <div class="footer__container">
+        <h2 data-anim="footer__elem" class="footer__title">Contact</h2>
+            <div class="footer__content">
+                <div class="footer__text">
+                    <p data-anim="footer__elem" data-anim="bottom" class="">Want to know more or just chat?<br> 
+                        You are welcome!</p>
+                    <button data-anim="boun" class="footer__btn">Send message</button>
+               </div>
+               <div data-anim="footer__elem" class="footer__social">
+                   <img src="./img/icon/footer_icon/linkedIn.png" alt="linkedIn">
+                   <img src="./img/icon/footer_icon/instagram.png" alt="instagram">
+                   <img src="./img/icon/footer_icon/behance.png" alt="behance">
+                   <img src="./img/icon/footer_icon/surface.png" alt="surface">
+               </div>
+            </div>
+       </div>
+   </footer>
+   <script src="./js/main.js"></script>
+</body>
+</html>
